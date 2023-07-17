@@ -1,6 +1,7 @@
 # 🌊 Hello there! <br> 
 ## I'm Lakshan Chamoditha Perera, a passionate software engineering student with expertise in web development. 
-       
+<img src="https://www.bleepstatic.com/content/hl-images/2022/04/08/GitHub___headpic.jpg" alt="My Image">;
+
 I enjoy building robust and scalable stand-alone systems, web applications, creating intuitive user interfaces, and solving complex problems with elegant solutions.
   Software Engineering Student @IJSE, I'm  currently studying advanced API Development for cross-platform web application development.<br><br>
     💻 My tech stack includes Java, Mysql, Javafx, JDBC, ORM (Hibernate), Java Sockets, HTML, CSS, JavaScript & Bootstrap, and web development using Servlet Java. <br>    
