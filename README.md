@@ -1,4 +1,4 @@
-# 🌊 Hello there! <br> 
+## Hello there 🌊 <br> 
 ## I'm Lakshan Chamoditha Perera, a passionate software engineering student with expertise in web development. 
 <img src="https://www.bleepstatic.com/content/hl-images/2022/04/08/GitHub___headpic.jpg" alt="My Image">;
 
