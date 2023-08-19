@@ -18,7 +18,7 @@ I enjoy building robust and scalable stand-alone systems, web applications, crea
 ## Language Stack
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=java,html,css,c,bash,javascript,python" />
+    <img src="https://skillicons.dev/icons?i=java,javascript,ts,python,bash,html,css,c" />
   </a>
 </p>
  
