@@ -25,14 +25,16 @@ I enjoy building robust and scalable stand-alone systems, web applications, crea
   ## Frameworks & Libraries
   <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=jquery,bootstrap,tailwind,maven,figma,linux" />
+    <img src="https://skillicons.dev/icons?i=jquery,bootstrap,angular,tailwind,maven,figma,linux" />
   </a>
 </p>
- ![Adobe Photoshop](https://img.shields.io/badge/adobephotoshop-%2331A8FF.svg?style=flat&logo=adobephotoshop&logoColor=white)
-
-## ORM
- ![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=Hibernate&logoColor=white)
  
+## ORM
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=hibernate" />
+  </a>
+
+   
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=Lakshan-Chamoditha-Perera&theme=blue-green&hide_border=false&include_all_commits=true&count_private=true)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=Lakshan-Chamoditha-Perera&theme=blue-green&hide_border=false)<br/>
