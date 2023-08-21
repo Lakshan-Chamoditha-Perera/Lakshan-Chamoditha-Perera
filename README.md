@@ -18,11 +18,11 @@ I enjoy building robust and scalable stand-alone systems, web applications, crea
 ## Language Stack
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=java,javascript,ts,python,bash,html,css,c" />
+    <img src="https://skillicons.dev/icons?i=java,javascript,ts,python,bash,html,css,c,postman" />
   </a>
 </p>
  
-  ## Frameworks & Libraries
+  ## Frameworks, Libraries & Tools
   <p align="center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=jquery,bootstrap,angular,tailwind,maven,figma,linux" />
