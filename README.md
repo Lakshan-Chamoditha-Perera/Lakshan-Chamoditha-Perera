@@ -1,5 +1,6 @@
 ## Hello there 🌊 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/lakshanchamoditha/) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lakshan-chamoditha-perera-524479227/) [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@perera.alc2000)  [![](https://visitcount.itsvg.in/api?id=Lakshan-Chamoditha-Perera&icon=2&color=12)](https://visitcount.itsvg.in)
  <br> 
+ 
 ## I'm Lakshan Chamoditha Perera, a passionate software engineering student with expertise in web development. 
 <img src="https://www.bleepstatic.com/content/hl-images/2022/04/08/GitHub___headpic.jpg" alt="My Image">
 
