@@ -40,7 +40,7 @@ const shan_perera = {
   ## Frameworks, Libraries & Tools
   <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=jquery,bootstrap,angular,tailwind,maven,figma,linux" />
+    <img src="https://skillicons.dev/icons?i=spring,jquery,bootstrap,angular,tailwind,maven,figma,linux,mysql,mongodb" />
   </a>
 </p>
  
