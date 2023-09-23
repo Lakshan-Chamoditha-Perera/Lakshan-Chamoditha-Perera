@@ -1,6 +1,5 @@
 ## Hello there 🌊 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/lakshanchamoditha/) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lakshan-chamoditha-perera-524479227/) [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@perera.alc2000)  [![](https://visitcount.itsvg.in/api?id=Lakshan-Chamoditha-Perera&icon=2&color=12)](https://visitcount.itsvg.in)
- <br> 
- 
+
 ## I'm Lakshan Chamoditha Perera, a passionate software engineering student with expertise in web development. 
 <img src="https://www.bleepstatic.com/content/hl-images/2022/04/08/GitHub___headpic.jpg" alt="My Image">
 
@@ -14,19 +13,39 @@ I enjoy building robust and scalable stand-alone systems, web applications, crea
 
 ```javascript
 const shan_perera = {
-    pronouns: "He" | "Him",
-    code: ["Java", "Javascript", "Typescript","Python","C"],
+    name: "Lakshan Chamoditha Perera",
+    pronouns: "He" || "Him",
+    age: 23,
+    location: {
+        city: "Panadura",
+        country: "Sri Lanka",
+    },
+    code: ["Java", "Javascript", "Typescript", "Python", "C"],
     askMeAbout: ["web dev", "tech", "app dev"],
     technologies: {
         frontend: {
-            js: ["Angular","Bootstap","JQuery"],
-        }
-        databases: ["MySql"],
+            js: ["Angular", "Bootstrap", "jQuery"],
+        },
+        databases: ["MySQL", "MongoDB"],
     },
-    architecture:  "Stand-alone applications", "Single page applications"],
+    architecture: ["Stand-alone applications", "Single page applications"],
     currentFocus: "No Focus point at this time",
-    Fun Fact: "There are two ways to write error-free programs; only the third one works."
+    funFact: "There are two ways to write error-free programs; only the third one works.",
+    frameworks: {
+        spring: {},
+        hibernate: {},
+    },
+    aspirations: [
+        "To become a System Architect",
+        "To explore the intersections of technology and art",
+    ],
+    hobbies: ["Photography", "Music Production", "Hiking"],
+    favoriteQuote: "Creativity is intelligence having fun. - Albert Einstein",
+    socialMedia: {
+        linkedIn: "https://www.linkedin.com/in/lakshan-chamoditha-perera-524479227",
+    },
 };
+
 ```
 # 💻 Tech Stack:
 
