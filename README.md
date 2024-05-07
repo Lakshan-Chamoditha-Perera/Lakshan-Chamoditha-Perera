@@ -13,36 +13,37 @@ I enjoy building robust and scalable stand-alone systems, web applications, crea
 
 ```javascript
 const shan_perera = {
-    name: "Lakshan Chamoditha Perera",
-    pronouns: "He" || "Him",
-    age: 23,
+    name: Lakshan Chamoditha Perera,
+    pronouns: He || Him,
+    age: 24,
     location: {
-        city: "Panadura",
-        country: "Sri Lanka",
+        city: Panadura,
+        country: Sri Lanka,
     },
-    code: ["Java", "Javascript", "Typescript", "Python", "C"],
-    askMeAbout: ["web dev", "tech", "app dev"],
+    code: [ Java, Javascript, Typescript, Python, C],
+    askMeAbout: [web dev, tech, app dev],
     technologies: {
         frontend: {
-            js: ["Angular", "Bootstrap", "jQuery"],
+            js: [React, Angular, Bootstrap, jQuery],
         },
-        databases: ["MySQL", "MongoDB"],
+        databases: [MySQL, Postgresql, MongoDB],
     },
-    architecture: ["Stand-alone applications", "Single page applications"],
-    currentFocus: "No Focus point at this time",
-    funFact: "There are two ways to write error-free programs; only the third one works.",
+    architecture: [Web Applications, Stand-alone applications, Single page applications],
+    currentFocus: No Focus point at this time,
+    funFact: There are two ways to write error-free programs; only the third one works.,
     frameworks: {
-        spring: {},
-        hibernate: {},
+        spring: {
+          Springboot, Spring Cloud, Spring Data JPA
+        }
     },
     aspirations: [
-        "To become a System Architect",
-        "To explore the intersections of technology and art",
+        To become a System Architect,
+        To explore the intersections of technology and art,
     ],
-    hobbies: ["Photography", "Music Production", "Hiking"],
-    favoriteQuote: "Creativity is intelligence having fun. - Albert Einstein",
+    hobbies: [ Photography, Music Production, Hiking],
+    favoriteQuote: Creativity is intelligence having fun. - Albert Einstein,
     socialMedia: {
-        linkedIn: "https://www.linkedin.com/in/lakshan-chamoditha-perera-524479227",
+        linkedIn: https://www.linkedin.com/in/lakshan-chamoditha-perera-524479227,
     },
 };
 
