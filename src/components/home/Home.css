@@ -1,0 +1,150 @@
+.home__container{
+    row-gap: 5rem;
+}
+.home__content{
+    grid-template-columns: 116px repeat(2,1fr);
+    align-items: center;
+    column-gap: 2rem;
+    /*border: 2px solid red;*/
+    padding-top: 5.5rem;
+    padding-bottom: 5.5rem;
+}
+
+.home__social{
+    display: grid;
+    grid-template-columns: max-content;
+    row-gap: 1rem;
+}
+
+.home__social-icon{
+    font-size: 1.5rem;
+    color:var(--title-color);
+    transition: .3s;
+}
+
+.home__social-icon:hover{
+    color: var(--title-color-dark);
+}
+
+.home_title{
+    font-size: var(--big-font-size);
+    color: var(--title-color);
+    margin-bottom: var(--mb-0-25);
+}
+.home__hand{
+    width: 38px;
+    height: 38px;
+    margin-left: 0.4rem;
+}
+.home__subtitle{
+    font-size: var(--h3-font-size);
+    position: relative;
+    padding-left: 5.4rem;
+    font-weight: var(--font-normal);
+    margin-bottom: var(--mb-1);
+    /*border: 2px solid red;*/
+}
+
+.home__subtitle::before{
+    content: '';
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background-color: var(--text-color);
+    left: 0;
+    top: 1rem;
+}
+
+.home__description{
+    max-width: 400px;
+    margin-bottom: var(--mb-3);
+}
+
+.home__img{
+    background: url("../../assets/profile (1).jpeg") no-repeat center;
+    background-size: cover; /* or use background-size: contain; based on your requirement */
+    box-shadow: inset 0 0 0 9px rgba(255, 255, 255, 0.5);
+    order: 1;
+    justify-self: center;
+    height: 300px;
+    width: 300px;
+    animation: profile__animate 8s ease-in-out infinite 5s;
+}
+
+@keyframes profile__animate {
+    0%{
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+    50%{
+        border-radius: 30% 60% 70% 40% / 50% 60% 30% 70%;
+    }
+    100%{
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+}
+
+.home__scroll{
+    margin-left: 9.25rem;
+}
+
+.wheel{
+    animation: scroll 2s ease infinite;
+}
+
+@keyframes scroll {
+    0%{
+        transform: translateY(0);
+    }
+    30%{
+        transform: translateY(3.75rem);
+    }
+}
+
+.home__scroll-name{
+    color: var(--title-color);
+    font-size: var(--font-medium);
+    margin-left: 2px;
+    margin-right: var(--mb-0-25);
+}
+.home__scroll-arrow{
+    font-size: 1.5rem;
+    color: var(--title-color);
+    transition: .3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
