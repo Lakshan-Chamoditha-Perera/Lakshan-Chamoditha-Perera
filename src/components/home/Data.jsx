@@ -46,12 +46,13 @@ const Data = () => {
                     fill="#EBA352"
                 ></path>
             </svg>
+
         </h1>
         <h3 className="home__subtitle">Full Stack Developer</h3>
         <p className="home__description">I'm a full stack developer with experience in building web applications using
             modern technologies.</p>
         <a href="#contact" className="button button--flex">
-            Say Hello <svg
+            Say hello  <svg
             className="button__icon"
             xmlns="http://www.w3.org/2000/svg"
             width="24"

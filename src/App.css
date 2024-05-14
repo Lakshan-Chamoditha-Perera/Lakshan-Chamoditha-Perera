@@ -78,7 +78,7 @@ body,
 button,
 input,
 textarea {
-  font-family: var(--body-font);
+  font-family: var(--body-font), serif;
   font-size: var(--normal-font-size);
 }
 
@@ -151,7 +151,7 @@ img {
   display: inline-block;
   background-color: var(--title-color);
   color: var(--container-color);
-  padding: 1.25rem 2rem;
+  padding: 0.5rem 1rem;
   border-radius: 1rem;
   font-weight: var(--font-medium);
 }
@@ -182,8 +182,8 @@ img {
   }
 
   .button__icon {
-    width: 22px;
-    height: 22px;
+    width: 25px;
+    height: 20px;
   }
 }
 
