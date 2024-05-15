@@ -39,9 +39,21 @@
     display: none;
 }
 
+.nav__item:hover {
+    font-weight: var(--font-semi-bold);
+    /*border-bottom: 1px solid var(--title-color);*/
+    box-shadow: 0 1px var(--title-color);
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+.nav__item{
+    transition: 0.3s;
+}
+
 .active-link,
 .nav__link:hover {
     color: var(--title-color-dark);
+    font-weight: 500;
 }
 
 @media screen and (max-width: 768px) {
