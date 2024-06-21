@@ -1,5 +1,5 @@
 import React from "react";
-
+import './skills.css';
 const Backend = () => {
     return (<div className="skills__content">
         <h3 className="skills__title">Backend</h3>

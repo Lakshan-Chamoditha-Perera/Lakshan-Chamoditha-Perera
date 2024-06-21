@@ -9,6 +9,7 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 2rem 4rem;
     border-radius: 1.25rem;
+    margin-bottom: 3rem;
 }
 
 .skills__title {
@@ -52,12 +53,82 @@
 
 }
 
+/*
+*/
+
+
+/* skills.css */
+
+@keyframes scrollX {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.marquee {
+    display: flex;
+    height: auto;
+    padding: 10px 0;
+    overflow: hidden;
+    user-select: none;
+    mask-image: linear-gradient(
+            to right,
+            hsl(0 0% 0% / 0),
+            hsl(0 0% 0% / 1) 10%,
+            hsl(0 0% 0% / 1) 90%,
+            hsl(0 0% 0% / 0)
+    );
+}
+
+.marquee-group {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: space-around;
+    white-space: nowrap;
+    width: 200%;
+    animation: scrollX 30s linear infinite;
+    gap: 1rem;
+}
+
+.image-group {
+    display: grid;
+    place-items: center;
+    width: 150px; /* Default width */
+    height: auto;
+    padding: 5px; /* Default padding */
+}
+
+.image {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem;
+    aspect-ratio: 16/9;
+    padding: 5px 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
 
 @media screen and (max-width: 992px) {
     .skills__container {
         grid-template-columns: max-content;
         row-gap: 2rem;
     }
+
+    .image-group {
+        width: 120px; /* Adjust width for tablets */
+        padding: 4px; /* Adjust padding */
+    }
+
+    .image {
+        padding: 4px 16px; /* Adjust padding */
+    }
+
+
 }
 
 @media screen and (max-width: 576px) {
@@ -68,35 +139,38 @@
     .skills__content {
         padding: 1.5rem;
     }
+
+    .marquee{
+        height: 10rem;
+        /*border: 2px solid black;*/
+    }
+    .marquee-group{
+        /*border: 2px solid green;*/
+        height: 8rem;
+        width: 400%;
+    }
+
+    .image-group {
+        /*border: 2px solid red;*/
+        height: 5rem;
+        width: 5rem;
+    }
+    .image {
+        padding: 3px 12px; /* Adjust padding */
+    }
+
 }
 
 /* For small devices */
 @media screen and (max-width: 350px) {
-    .skills__box{
+
+    .skills__box {
         column-gap: 1.25rem;
     }
 
-    .skills__name{
+    .skills__name {
         font-size: var(--small-font-size);
     }
 
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
