@@ -61,6 +61,7 @@
 .home__description {
     max-width: 400px;
     margin-bottom: var(--mb-3);
+    color: #5A544A;
 }
 
 .home__img {
