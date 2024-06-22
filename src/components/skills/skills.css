@@ -6,10 +6,17 @@
 
 .skills__content {
     background-color: var(--container-color);
-    border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 2rem 4rem;
     border-radius: 1.25rem;
     margin-bottom: 3rem;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(3, 74, 40, 0.15);
+    transition: 0.3s;
+
+}
+
+.skills__content:active {
+    transform: scale(0.98);
 }
 
 .skills__title {
@@ -74,13 +81,14 @@
     padding: 10px 0;
     overflow: hidden;
     user-select: none;
-    mask-image: linear-gradient(
-            to right,
-            hsl(0 0% 0% / 0),
-            hsl(0 0% 0% / 1) 10%,
-            hsl(0 0% 0% / 1) 90%,
-            hsl(0 0% 0% / 0)
-    );
+    mask-image:
+            linear-gradient(
+                    to right,
+                    hsl(0 100% 100% / 0),
+                    hsl(0 10% 0% / 1) 60%,
+                    hsl(0 10% 0% / 1) 60%,
+                    hsl(0 100% 100% / 0)
+            );
 }
 
 .marquee-group {
@@ -109,7 +117,7 @@
     border-radius: 0.5rem;
     aspect-ratio: 16/9;
     padding: 5px 20px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0 2px 8px 0;
 }
 
 

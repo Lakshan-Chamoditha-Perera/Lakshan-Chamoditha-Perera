@@ -3,206 +3,216 @@
 
 /*=============== VARIABLES CSS ===============*/
 :root {
-  --header-height: 3rem;
+    --header-height: 3rem;
 
-  /*========== Colors ==========*/
-  /*Color mode HSL(hue, saturation, lightness)*/
-  --hue: 0;
-  --sat: 0%;
-  --title-color: hsl(var(--hue), var(--sat), 10%);
-  --title-color-dark: hsl(var(--hue), var(--sat), 0%);
-  --text-color: hsl(var(--hue), var(--sat), 46%);
-  --body-color: white;
-  --container-color: white;
+    /*========== Colors ==========*/
+    /*Color mode HSL(hue, saturation, lightness)*/
+    --hue: 0;
+    --sat: 0%;
+    --title-color: hsl(var(--hue), var(--sat), 10%);
+    --title-color-dark: hsl(var(--hue), var(--sat), 0%);
+    --text-color: hsl(var(--hue), var(--sat), 46%);
+    --body-color: white;
+    --container-color: white;
 
-  /*========== Font and typography ==========*/
-  --body-font: "Poppins", sans-serif;
+    /*========== Font and typography ==========*/
+    --body-font: "Poppins", sans-serif;
 
-  /*.5rem = 8px | 1rem = 16px ...*/
-  --big-font-size: 3.5rem;
-  --h1-font-size: 2.25rem;
-  --h2-font-size: 1.5rem;
-  --h3-font-size: 1.25rem;
-  --normal-font-size: 1rem;
-  --small-font-size: 0.875rem;
-  --smaller-font-size: 0.813rem;
-  --tiny-font-size: 0.625rem;
+    /*.5rem = 8px | 1rem = 16px ...*/
+    --bigger-font-size: 4.0rem;
+    --big-font-size: 3.0rem;
+    --h1-font-size: 2.25rem;
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size: 0.875rem;
+    --smaller-font-size: 0.813rem;
+    --tiny-font-size: 0.625rem;
 
-  /*========== Font weight ==========*/
-  --font-normal: 400;
-  --font-medium: 500;
-  --font-semi-bold: 600;
+    /*========== Font weight ==========*/
+    --font-normal: 400;
+    --font-medium: 500;
+    --font-semi-bold: 600;
+    --font-high-bold: 700;
 
-  /*========== Margenes Bottom ==========*/
-  /*.5rem = 8px | 1rem = 16px ...*/
-  --mb-0-25: 0.25rem;
-  --mb-0-5: 0.5rem;
-  --mb-0-75: 0.75rem;
-  --mb-1: 1rem;
-  --mb-1-5: 1.5rem;
-  --mb-2: 2rem;
-  --mb-2-5: 2.5rem;
-  --mb-3: 3rem;
 
-  /*========== z index ==========*/
-  --z-tooltip: 10;
-  --z-fixed: 100;
-  --z-modal: 1000;
+    /*========== Margenes Bottom ==========*/
+    /*.5rem = 8px | 1rem = 16px ...*/
+    --mb-0-25: 0.25rem;
+    --mb-0-5: 0.5rem;
+    --mb-0-75: 0.75rem;
+    --mb-1: 1rem;
+    --mb-1-5: 1.5rem;
+    --mb-2: 2rem;
+    --mb-2-5: 2.5rem;
+    --mb-3: 3rem;
 
-  scroll-behavior: smooth;
-  scrollbar-width: none;
+    /*========== z index ==========*/
+    --z-tooltip: 10;
+    --z-fixed: 100;
+    --z-modal: 1000;
+
+    scroll-behavior: smooth;
+    scrollbar-width: none;
 }
 
 /* Responsive typography */
 @media screen and (max-width: 992px) {
-  :root {
-    --big-font-size: 2.75rem;
-    --h1-font-size: 1.5rem;
-    --h2-font-size: 1.25rem;
-    --h3-font-size: 1rem;
-    --normal-font-size: 0.938rem;
-    --small-font-size: 0.813rem;
-    --smaller-font-size: 0.75rem;
-  }
+    :root {
+        --bigger-font-size: 2.75rem;
+        --h1-font-size: 1.5rem;
+        --h2-font-size: 1.25rem;
+        --h3-font-size: 1rem;
+        --normal-font-size: 0.938rem;
+        --small-font-size: 0.813rem;
+        --smaller-font-size: 0.75rem;
+    }
 }
 
 /*=============== BASE ===============*/
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 body,
 button,
 input,
 textarea {
-  font-family: var(--body-font), serif;
-  font-size: var(--normal-font-size);
+    font-family: var(--body-font), serif;
+    font-size: var(--normal-font-size);
 }
 
 body {
-  background-color: var(--body-color);
-  color: var(--text-color);
+    background-color: var(--body-color);
+    color: var(--text-color);
 }
 
 h1,
 h2,
 h3 {
-  color: var(--title-color);
-  font-weight: var(--font-semi-bold);
+    color: var(--title-color);
+    font-weight: var(--font-semi-bold);
 }
 
 ul {
-  list-style: none;
+    list-style: none;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 button {
-  cursor: pointer;
-  border: none;
-  outline: none;
+    cursor: pointer;
+    border: none;
+    outline: none;
 }
 
 img {
-  max-width: 100%;
-  height: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section {
-  padding: 6rem 0 ;
+    /*border: 1px solid red;*/
+    padding: 2.5rem 0;
 }
 
 .section__title {
-  font-size: var(--h1-font-size);
-  color: var(--title-color);
+    /*border: 1px solid red;*/
+    font-size: var(--big-font-size);
+    color: var(--title-color);
 }
 
 .section__subtitle {
-  display: block;
-  font-size: var(--small-font-size);
-  margin-bottom: 4rem;
+    display: block;
+    font-size: var(--small-font-size);
+    margin-bottom: 4rem;
 }
 
 .section__title,
 .section__subtitle {
-  text-align: center;
+    text-align: center;
 }
 
 /*=============== LAYOUT ===============*/
 .container {
-  max-width: 968px;
-  margin-left: auto;
-  margin-right: auto;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .grid {
-  display: grid;
-  gap: 1.5rem;
+    display: grid;
+    gap: 1.5rem;
 }
 
 /*=============== BUTTONS ===============*/
 .button {
-  display: inline-block;
-  background-color: var(--title-color);
-  color: var(--container-color);
-  padding: 0.5rem 1rem;
-  border-radius: 1rem;
-  font-weight: var(--font-medium);
+    display: inline-block;
+    background-color: var(--title-color);
+    color: var(--container-color);
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    font-weight: var(--font-medium);
+    transition: 0.3s;
+}
+
+.button:active {
+    transform: scale(0.9);
 }
 
 .button:hover {
-  background-color: var(--title-color-dark);
+    background-color: var(--title-color-dark);
 }
 
 .button__icon {
-  margin-left: var(--mb-0-5);
+    margin-left: var(--mb-0-5);
 }
 
 .button--flex {
-  display: inline-flex;
-  align-items: center;
+    display: inline-flex;
+    align-items: center;
 }
 
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {
-  .container {
-    margin-left: var(--mb-1-5);
-    margin-right: var(--mb-1-5);
-  }
+    .container {
+        margin-left: var(--mb-1-5);
+        margin-right: var(--mb-1-5);
+    }
 
-  .button {
-    padding: 1rem 1.75rem;
-  }
+    .button {
+        padding: 1rem 1.75rem;
+    }
 
-  .button__icon {
-    width: 25px;
-    height: 20px;
-  }
+    .button__icon {
+        width: 25px;
+        height: 20px;
+    }
 }
 
 /* For medium devices */
 @media screen and (max-width: 768px) {
-  body {
-    margin: 0 0 var(--header-height) 0;
-  }
+    body {
+        margin: 0 0 var(--header-height) 0;
+    }
 
-  .section {
-    padding: 2rem 0 4rem;
-  }
+    .section {
+        padding: 2rem 0 2rem;
+    }
 
-  .section__subtitle {
-    margin-bottom: var(--mb-3);
-  }
+    .section__subtitle {
+        margin-bottom: var(--mb-3);
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -210,12 +220,66 @@ img {
 
 /* For small devices */
 @media screen and (max-width: 350px) {
-  :root {
-    --big-font-size: 2.25rem;
-  }
+    :root {
+        --bigger-font-size: 2.25rem;
+    }
 
-  .container {
-    margin-left: var(--mb-1);
-    margin-right: var(--mb-1);
-  }
+    .container {
+        margin-left: var(--mb-1);
+        margin-right: var(--mb-1);
+    }
+}
+
+/*Scroll reval*/
+.scroll-reveal {
+    border: 1px solid black;
+    text-align: center;
+    /*padding-block: clamp(1rem, 5vh, 25vh);*/
+
+}
+
+.scroll-reveal h4 {
+    font-size: 4rem;
+    line-height: 1;
+}
+
+.scroll-reveal p {
+    font-size: 2rem;
+    line-height: 1.2;
+    max-width: 55ch;
+    margin-inline: auto;
+}
+
+.scroll-reveal  span {
+    color: hsl(0 0% 100%/0.2);
+    margin: 0;
+    background-image: linear-gradient(90deg, black, black);
+
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-repeat: no-repeat;
+    background-size: 0 100%;
+    animation: scroll-reveal linear forwards ;
+    animation-timeline: view(y);
+
+
+}
+
+.scroll-reveal h4 span{
+
+    animation-range-start:cover 10vh;
+    animation-range-end:cover 30vh;
+}
+
+.scroll-reveal p4 span{
+    animation-range-start:cover 22vh;
+    animation-range-end:cover 50vh;
+}
+
+
+
+@keyframes scroll-reveal {
+    to {
+        background-size: 100% 100%;
+    }
 }
