@@ -126,16 +126,19 @@
     }
   }
   
-  @media screen and (max-width: 350px) {
+  @media screen and (max-width: 575px) {
     .nav__menu {
       padding: 2rem 1rem 4rem;
     }
+
   }
   
   @media screen and (max-width: 350px) {
     .container {
       margin-left: 1rem;
       margin-right: 1rem;
+
     }
+
   }
   

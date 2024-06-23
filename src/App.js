@@ -6,19 +6,24 @@ import Services from "./components/services/Services";
 import Footer from "./components/footer/Footer";
 import Contact from "./components/contact/Contact";
 import Work from "./components/work/Work";
+import ScrollUp from "./components/scrollup/ScrollUp";
 
 function App() {
-    return (
-        <>
-            <Header/>
+    return (<>
+        <Header/>
+
+        <main className="main">
             <Home/>
             <Services/>
             <Work/>
             <Skills/>
             <Contact/>
-            <Footer/>
-        </>
-    );
+        </main>
+
+        <Footer/>
+        <ScrollUp/>
+
+    </>);
 }
 
 export default App;

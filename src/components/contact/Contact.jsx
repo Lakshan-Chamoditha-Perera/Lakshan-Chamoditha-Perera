@@ -9,7 +9,7 @@ const Contact = () => {
         <div className="contact__container container grid">
 
             <div className="contact__content">
-                <h3 className="contact__title">Talk to me</h3>
+                <h3 className="contact__title">Let's talk</h3>
 
                 <div className="contact__info">
                     <div className="contact__card">
@@ -52,7 +52,7 @@ const Contact = () => {
 
 
             <div className="contact__content">
-                <h3 className="contact__title">Write me a message ! </h3>
+                <h3 className="contact__title">Write me a message  </h3>
 
                 <form action="" className="contact__form">
                     <div className="contact__form-div ">
@@ -79,8 +79,6 @@ const Contact = () => {
                                   rows="10"
                                   className="contact__form-input"
                                   placeholder="Write your project">
-                        >
-
                         </textarea>
 
                     </div>

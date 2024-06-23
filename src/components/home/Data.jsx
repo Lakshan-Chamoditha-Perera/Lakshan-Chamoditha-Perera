@@ -50,7 +50,10 @@ const Data = () => {
                 ></path>
             </svg>
         </h1>
-        <h3 className="home__subtitle">Software Engineer / Coder</h3>
+        <h3 className="home__subtitle">
+
+           Associate Software Engineer & Web Developer
+        </h3>
         <p className="home__description">based in Sri Lanka specializing in building exceptional websites, applications,
             and everything in between.
         </p>
