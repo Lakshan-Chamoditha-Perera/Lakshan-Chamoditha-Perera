@@ -5,14 +5,16 @@ import Skills from "./components/skills/Skills";
 import Services from "./components/services/Services";
 import Footer from "./components/footer/Footer";
 import Contact from "./components/contact/Contact";
+import Work from "./components/work/Work";
 
 function App() {
     return (
         <>
             <Header/>
             <Home/>
-            <Skills/>
             <Services/>
+            <Work/>
+            <Skills/>
             <Contact/>
             <Footer/>
         </>

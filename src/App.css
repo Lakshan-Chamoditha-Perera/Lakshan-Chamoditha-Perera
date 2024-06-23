@@ -127,6 +127,7 @@ img {
 
 .section__title {
     /*border: 1px solid red;*/
+    padding-top: 2rem;
     font-size: var(--big-font-size);
     color: var(--title-color);
 }
@@ -135,6 +136,7 @@ img {
     display: block;
     font-size: var(--small-font-size);
     margin-bottom: 4rem;
+    /*border: 1px solid black;*/
 }
 
 .section__title,
