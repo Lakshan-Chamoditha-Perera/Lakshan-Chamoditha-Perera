@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import "./header.css";
 
-const Header = () => {
+const Header = ({toggleTheme}) => {
     const [Toggle, setToggle] = useState(false);
     return (
         <header className="header">
@@ -49,7 +49,6 @@ const Header = () => {
 
                     <i className="uil uil-times nav__close" onClick={() => setToggle(!Toggle)}></i>
                 </div>
-
                 <div className="nav__toggle" onClick={() => setToggle(!Toggle)}>
                     <i className="uil uil-apps"></i>
 

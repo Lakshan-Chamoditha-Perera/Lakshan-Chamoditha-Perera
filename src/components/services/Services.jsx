@@ -1,5 +1,4 @@
 import React, {useState} from "react";
-import {motion} from "framer-motion"
 import './services.css';
 
 const Services = () => {
@@ -8,46 +7,13 @@ const Services = () => {
         setToggleState(index);
     }
 
-    const fadeIn = (direction, delay) => {
-        return {
-            hidden: {
-                y: direction === 'up' ? 80 : direction === 'down' ? -80 : 0,
-                opacity: 0,
-                x: direction === 'left' ? 80 : direction === 'right' ? -80 : 0,
-                transition: {
-                    type: 'tween', duration: 1.5, delay: delay, ease: [0.25, 0.6, 0.3, 0.8],
-                },
-            }, show: {
-                y: 0, x: 0, opacity: 1, transition: {
-                    type: 'tween', duration: 1.4, delay: delay, ease: [0.25, 0.25, 0.25, 0.75],
-                },
-            },
-        };
-    };
-
-
     return (<section className="services section" id="services">
-        <motion.h2
-            variants={fadeIn("up", 0.1)}
-            initial="hidden"
-            animate={'show'}
-            exit={'hidden'}
-            className="section__title">Services
-        </motion.h2>
-        <motion.span variants={fadeIn("up", 0.1)}
-                     initial="hidden"
-                     animate={'show'}
-                     exit={'hidden'}
-                     className="section__subtitle">
-            What I offer
-        </motion.span>
+        <h2 className="section__title">Services</h2>
+        <span className="section__subtitle">What I offer</span>
 
         <div className="services__container container grid">
             {/*Software Development*/}
-            <motion.div variants={fadeIn("up", 0.5)}
-                        initial="hidden"
-                        animate={'show'}
-                        exit={'hidden'} className="services__content">
+            <div className="services__content">
                 <div>
                     <i className="uil uil-web-grid services__icon"></i>
                     <h3 className="services__title">Software <br/> Development</h3>
@@ -107,13 +73,10 @@ const Services = () => {
                         </ul>
                     </div>
                 </div>
-            </motion.div>
+            </div>
 
             {/*Specialized Services*/}
-            <motion.div variants={fadeIn("up", 0.3)}
-                        initial="hidden"
-                        animate={'show'}
-                        exit={'hidden'} className="services__content">
+            <div className="services__content">
                 <div>
                     <i className="uil uil-arrow services__icon"></i>
                     <h3 className="services__title">Specialized <br/> Services</h3>
@@ -165,13 +128,10 @@ const Services = () => {
                     </div>
                 </div>
 
-            </motion.div>
+            </div>
 
             {/*Project-Based Services*/}
-            <motion.div variants={fadeIn("up", 0.1)}
-                        initial="hidden"
-                        animate={'show'}
-                        exit={'hidden'} className="services__content">
+            <div className="services__content">
                 <div>
                     <i className="uil uil-edit services__icon"></i>
                     <h3 className="services__title">
@@ -222,7 +182,7 @@ const Services = () => {
                     </div>
                 </div>
 
-            </motion.div>
+            </div>
 
         </div>
     </section>);

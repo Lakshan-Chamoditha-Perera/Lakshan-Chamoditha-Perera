@@ -6,8 +6,8 @@ import WorkItemCard from "./WorkItemCard";
 import Work1 from "../../assets/works/timely_web.png";
 import Work2 from "../../assets/works/eco_tracker_web.png";
 import Work3 from "../../assets/works/next_travel.jpeg";
-import Work4 from "../../assets/work4.jpg";
-import Work5 from "../../assets/work5.jpg";
+import Work4 from "../../assets/works/chat_app_img_2.jpeg";
+import Work5 from "../../assets/works/qr_generator_img.jpeg";
 
 const projectsData = [{
     id: 1,
@@ -30,16 +30,24 @@ const projectsData = [{
 }, {
     id: 4,
     image: Work4,
-    title: "App movil",
+    title: "Rocket Chat App",
     category: "app",
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, error."
+    description: "Chatting application developed using java socket programming."
 }, {
     id: 5,
     image: Work5,
-    title: "Web design",
-    category: "web",
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, error."
-}];
+    title: "QR Reader and Generator",
+    category: "app",
+    description: "QR code generator and reader application developed using java with google zxing library."
+},{
+    id: 6,
+    image: Work1,
+    title: "Student Management System",
+    category: "app",
+    description: ""
+}
+
+];
 
 const projectCategories = [{
     id: "all", name: "All",

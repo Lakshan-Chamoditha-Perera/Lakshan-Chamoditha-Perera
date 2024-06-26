@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, {useEffect} from "react";
 import "./scrollup.css";
 
 const ScrollUp = () => {
@@ -20,11 +20,9 @@ const ScrollUp = () => {
         };
     }, []);
 
-    return (
-        <a href="#" className="scrollUp">
+    return (<a href="#" className="scrollUp">
             <i className="uil uil-arrow-up scrollUp__icon"></i>
-        </a>
-    );
+        </a>);
 };
 
 export default ScrollUp;

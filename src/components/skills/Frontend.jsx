@@ -2,8 +2,8 @@ import React from "react";
 import './skills.css';
 
 const Frontend = () => {
-    return (
-        <div className="skills__content">
+    return (<div
+        className="skills__content">
             <h3 className="skills__title">Frontend</h3>
 
             <div className="skills__box">
@@ -49,7 +49,7 @@ const Frontend = () => {
                 </div>
 
             </div>
-        </div>);
+    </div>);
 }
 
 export default Frontend;
