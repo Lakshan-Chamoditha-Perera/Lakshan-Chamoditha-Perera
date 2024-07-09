@@ -3,7 +3,8 @@
     justify-content: center;
     column-gap: 1.8rem;
     margin-bottom: var(--mb-3);
-    /*border:1px solid #5A544A;*/
+    border:1px solid #5A544A;
+    min-height: 30vh;
 }
 
 .services__content {

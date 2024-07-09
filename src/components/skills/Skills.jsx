@@ -1,6 +1,4 @@
 import React, {useEffect, useState} from "react";
-import Backend from "./Backend";
-import Frontend from "./Frontend";
 import logo1 from "../../assets/nodejs-horizontal.svg";
 import logo2 from "../../assets/java-icon.svg";
 import logo3 from "../../assets/gitlab-icon.svg";
@@ -12,6 +10,8 @@ import logo8 from "../../assets/javascript.svg";
 import logo9 from "../../assets/w3_html5-icon.svg";
 import logo10 from "../../assets/spring_cloud.png";
 import logo11 from "../../assets/amazon_aws-icon.svg";
+import Frontend from "./Frontend";
+import Backend from "./Backend";
 import "./skills.css"; // Import the CSS file for styles and animations
 
 const Skills = () => {
@@ -32,9 +32,11 @@ const Skills = () => {
         <h2 className="section__title">Tech - Stack</h2>
         <span className="section__subtitle">Technical level</span>
         <div className="skills__container container grid">
-            <Frontend/>
-            <Backend/>
+        <Frontend/>
+        <Backend/>
+        
         </div>
+
 
         <div className="logo-slider">
             <div className="marquee">
