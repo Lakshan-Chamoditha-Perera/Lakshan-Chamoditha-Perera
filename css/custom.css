@@ -1,5 +1,4 @@
 #hero_image{
-    border: 1px solid red;
     max-width: 800px;
 }
 
@@ -7,4 +6,78 @@
     #hero_image{
         display: none;
     }
+}
+
+.services__modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*padding: 0 1rem;*/
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.services__modal-content {
+    width: 500px;
+    position: relative;
+    
+    background-color: var(--bs-light);
+    padding: 4.5rem 2.5rem 2.5rem;
+    /*border-radius: 1.5rem;*/
+}
+
+.services__modal-close {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.services__modal-close:hover {
+    scale: 1.5;
+    transform-style: preserve-3d;
+}
+
+
+.services__modal-title, .services__modal-description {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.services__modal-description {
+    /* font-size: var(); */
+    padding: 0.3rem;
+    /*margin-bottom: var(--mb-2);*/
+}
+
+.services__modal-services {
+    row-gap: 0.75rem;
+}
+
+.services__modal-service {
+    display: flex;
+    /*align-items: baseline;*/
+    column-gap: .5rem;
+    margin-bottom: 0.5rem;
+}
+
+.services__modal-info {
+    text-align: justify;
+}
+
+/*active modal*/
+.active {
+    opacity: 1;
+    visibility: visible;
+    z-index: 999;
 }
