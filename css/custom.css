@@ -1,3 +1,12 @@
+
+/*---------*/
+#download_cv:hover{
+    color: var(--bs-primary);
+    background-color: white;
+    border-color: var(--bs-primary);
+    transition: 0.3s;
+}
+
 #hero_image{
     max-width: 800px;
 }
@@ -37,8 +46,8 @@
 
 .services__modal-close {
     position: absolute;
-    top: 1.5rem;
-    right: 1.5rem;
+    top: 2.5rem;
+    right: 2.5rem;
     cursor: pointer;
     transition: 0.3s;
 }
@@ -62,6 +71,7 @@
 
 .services__modal-services {
     row-gap: 0.75rem;
+    padding: 0; !important;
 }
 
 .services__modal-service {
@@ -80,4 +90,13 @@
     opacity: 1;
     visibility: visible;
     z-index: 999;
+}
+
+/*--------*/
+.numbers_item{
+    text-align: center;
+}
+
+#numbers .container{
+    margin:6rem auto;
 }

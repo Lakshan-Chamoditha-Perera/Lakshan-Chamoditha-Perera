@@ -77,6 +77,11 @@
 ::after,
 ::before {
   box-sizing: border-box;
+/*  hide scrollbar*/
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+/*  smooth scrolling*/
+  scroll-behavior: smooth;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -462,8 +467,8 @@ button:not(:disabled) {
   width: 100%;
   padding-right: calc(var(--bs-gutter-x) * 0.5);
   padding-left: calc(var(--bs-gutter-x) * 0.5);
-  margin-right: auto;
-  margin-left: auto;
+
+  margin: 0 auto;
 }
 
 @media (min-width: 576px) {
@@ -1207,6 +1212,7 @@ button:not(:disabled) {
   color: var(--bs-navbar-brand-color);
   text-decoration: none;
   white-space: nowrap;
+  font-weight: bold;
 }
 
 .navbar-brand:focus,
