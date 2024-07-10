@@ -1218,6 +1218,7 @@ button:not(:disabled) {
 .navbar-brand:focus,
 .navbar-brand:hover {
   color: var(--bs-navbar-brand-hover-color);
+  cursor: pointer;
 }
 
 .navbar-nav {

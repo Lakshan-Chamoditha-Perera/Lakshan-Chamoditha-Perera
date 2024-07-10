@@ -26,7 +26,7 @@
         tabindex="0"
 >
     <div class="container">
-        <a class="navbar-brand pe-4 fs-4">SHAN</a>
+        <a class="navbar-brand pe-4 fs-4" href="#">SHAN</a>
         <button
                 aria-controls="navbarSupportedContent"
                 aria-expanded="false"
@@ -79,7 +79,7 @@
                 style="background-image: url(img/PicsArt_02-19-09.15.34.png)"
               ></div> -->
             <div class="row">
-                <div class="py-vh-6 position-relative" data-aos="fade-right">
+                <div class="py-vh-6 position-relative" data-aos="fade-down">
                     <h1 class="display-1 fw-bold mt-5">Lakshan Chamoditha Perera</h1>
                     <p class="lead">
                         Passionate Associate Software Engineer / Web Developer
@@ -97,10 +97,8 @@
         <div class="container">
             <div class="row d-flex justify-content-end">
                 <div class="col-lg-8" data-aos="fade-down">
-                    <h2 class="display-6">
-                        Struggling to Manage Your Vision?
-                        Imagine smoother, more streamlined experience that aligns with your vision and goals.
-
+                    <h2 class="display-6 border-bottom border-dark">
+                        Struggling to Manage Your Vision?<br/>
                         <strong>Services offering by me.</strong>
                     </h2>
                 </div>
@@ -111,7 +109,7 @@
                         data-aos="fade-up"
                         data-aos-delay="200"
                 >
-                    <h3 class="py-5 border-top border-dark">Software Development</h3>
+                    <h3 class="mt-5">Software Development</h3>
                     <p style="text-align: justify">
                         As a dedicated software developer, I offer comprehensive
                         software development services tailored to meet the unique needs
@@ -127,7 +125,7 @@
                         data-aos="fade-up"
                         data-aos-delay="400"
                 >
-                    <h3 class="py-5 border-top border-dark">Specialized Services</h3>
+                    <h3 class="mt-5">Specialized Services</h3>
                     <p style="text-align: justify">
                         By offering these specialized services, I aim to deliver
                         comprehensive solutions that address all aspects of software
@@ -145,7 +143,7 @@
                         data-aos="fade-up"
                         data-aos-delay="600"
                 >
-                    <h3 class="py-5 border-top border-dark">
+                    <h3 class="mt-5">
                         Project-Based Services
                     </h3>
                     <p style="text-align: justify">
@@ -329,9 +327,9 @@
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <h3 class="py-5 border-top border-dark" data-aos="fade-left">
+                    <h1 class="py-5 border-top border-dark" data-aos="fade-left">
                         We did some interesting stuff in our field of work.
-                    </h3>
+                    </h1>
                     <p data-aos="fade-left" data-aos-delay="200">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Similique quisquam debitis corrupti deserunt, dolor.
@@ -484,7 +482,8 @@
                                 <p class="date">July 20, 2023</p>
                                 <div class="tech-stack">
                                     <p>
-                                        The Next Travel Pvt Ltd system is a comprehensive travel planning application developed using Spring Boot 3, Spring Cloud,
+                                        The Next Travel Pvt Ltd system is a comprehensive travel planning application
+                                        developed using Spring Boot 3, Spring Cloud,
                                         and microservices architecture.
                                     </p>
                                     <ul>
@@ -514,7 +513,8 @@
                                 <div class="tech-stack">
                                     <p>
 
-                                        The QR Code Reader is a lightweight Java application that scans QR codes using a computer's webcam.</p>
+                                        The QR Code Reader is a lightweight Java application that scans QR codes using a
+                                        computer's webcam.</p>
                                     <ul>
                                         <li>Java</li>
                                         <li>JavaFX</li>
@@ -555,7 +555,7 @@
         </div>
     </div>
 
-    <div class="container py-vh-4 w-100 overflow-hidden">
+    <div class="container py-vh-4 w-100 overflow-hidden" style="display: none">
         <div class="row d-flex justify-content-center align-items-center">
             <div class="col-lg-5">
                 <h3 class="py-5 border-top border-dark" data-aos="fade-right">
@@ -565,7 +565,7 @@
             <div class="col-md-7" data-aos="fade-left">
                 <blockquote>
                     <div class="fs-4 my-3 fw-light pt-4 border-bottom pb-3">
-                        “I´am the CEO of this company. So maybe you think "he will tell
+                        “I am the CEO of this company. So maybe you think "he will tell
                         us something super awesome about it only". But no. Its a really
                         strange place to work with creepy people all around. They do
                         some computer stuff I don´t understand. But I wear expensive
@@ -886,7 +886,6 @@
         </div>
     </div>
 </main>
-
 <footer>
     <div class="container small border-top">
         <div class="row py-5 d-flex justify-content-between">
@@ -1000,10 +999,16 @@
     </div>
 </footer>
 
+<a class="scrollUp" href="#" id="scrollUp">
+    <svg class="bi bi-arrow-up" fill="currentColor" height="16" viewBox="0 0 16 16" width="16"
+         xmlns="http://www.w3.org/2000/svg">
+        <path d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5"
+              fill-rule="evenodd"/>
+    </svg>
+</a>
 <div class="preloader">
-    <img src="assets/img/preloader.gif">
+    <img alt="preloader" src="assets/img/preloader.gif">
 </div>
-
 
 <script src="js/bootstrap.bundle.min.js"></script>
 <script src="js/aos.js"></script>
@@ -1012,83 +1017,20 @@
         duration: 800, // values from 0 to 3000, with step 50ms
     });
 </script>
-
+<script src="js/scripts/preloader.js"></script>
+<script src="js/scripts/navbar.js"></script>
+<script src="js/scripts/services.js"></script>
 <script>
-    let preloader = document.querySelector(".preloader");
-    window.addEventListener("load", function () {
-        preloader.style.display = "none";
-    });
-</script>
-
-<script>
-
-    let scrollpos = window.scrollY;
-    const header = document.querySelector(".navbar");
-    const header_height = header.offsetHeight;
-
-    const add_class_on_scroll = () =>
-        header.classList.add("scrolled", "shadow-sm");
-    const remove_class_on_scroll = () =>
-        header.classList.remove("scrolled", "shadow-sm");
-
-    window.addEventListener("scroll", function () {
-        scrollpos = window.scrollY;
-
-        if (scrollpos >= header_height) {
-            add_class_on_scroll();
+    const handleScroll = () => {
+        const scrollUp = document.querySelector(".scrollUp");
+        if (window.scrollY >= 560) {
+            scrollUp.classList.add("show-scroll");
         } else {
-            remove_class_on_scroll();
+            scrollUp.classList.remove("show-scroll");
         }
-
-        // console.log(scrollpos);
-    });
+    };
+    window.addEventListener("scroll", handleScroll);
 </script>
-<script>
-    // JavaScript to handle modal toggling
-    document.addEventListener("DOMContentLoaded", function () {
-        var btnSoftware = document.getElementById(
-            "service_software_development_btn"
-        );
-        var btnSpecialized = document.getElementById(
-            "service_specialized_service_btn"
-        );
-        var btnProjectBased = document.getElementById(
-            "service_project_based_services_btn"
-        );
 
-        var modalSoftware = document.getElementById("service_1_des");
-        var modalSpecialized = document.getElementById("service_2_des");
-        var modalProjectBased = document.getElementById("service_3_des");
-
-        function openModal(modal) {
-            modal.classList.add("active");
-        }
-
-        function closeModal(modal) {
-            modal.classList.remove("active");
-        }
-
-        btnSoftware.addEventListener("click", function () {
-            openModal(modalSoftware);
-        });
-
-        btnSpecialized.addEventListener("click", function () {
-            openModal(modalSpecialized);
-        });
-
-        btnProjectBased.addEventListener("click", function () {
-            openModal(modalProjectBased);
-        });
-
-        // Close modal functionality
-        var closeButtons = document.querySelectorAll(".services__modal-close");
-        closeButtons.forEach(function (btn) {
-            btn.addEventListener("click", function () {
-                var modal = btn.closest(".services__modal");
-                closeModal(modal);
-            });
-        });
-    });
-</script>
 </body>
 </html>
