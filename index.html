@@ -1000,6 +1000,11 @@
     </div>
 </footer>
 
+<div class="preloader">
+    <img src="assets/img/preloader.gif">
+</div>
+
+
 <script src="js/bootstrap.bundle.min.js"></script>
 <script src="js/aos.js"></script>
 <script>
@@ -1009,6 +1014,14 @@
 </script>
 
 <script>
+    let preloader = document.querySelector(".preloader");
+    window.addEventListener("load", function () {
+        preloader.style.display = "none";
+    });
+</script>
+
+<script>
+
     let scrollpos = window.scrollY;
     const header = document.querySelector(".navbar");
     const header_height = header.offsetHeight;
@@ -1027,7 +1040,7 @@
             remove_class_on_scroll();
         }
 
-        console.log(scrollpos);
+        // console.log(scrollpos);
     });
 </script>
 <script>
