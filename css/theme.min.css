@@ -1211,7 +1211,6 @@ button:not(:disabled) {
   font-size: var(--bs-navbar-brand-font-size);
   color: var(--bs-navbar-brand-color);
   text-decoration: none;
-  white-space: nowrap;
   font-weight: bold;
 }
 

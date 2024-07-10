@@ -1,5 +1,5 @@
 /*---------*/
-#download_cv:hover {
+.btn-dark:hover {
     color: var(--bs-primary);
     background-color: white;
     border-color: var(--bs-primary);
@@ -217,3 +217,4 @@
 .show-scroll {
     bottom: 5rem;
 }
+
