@@ -108,16 +108,19 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 0 0 0 0;
     overflow: hidden;
-    max-width: 600px;
+   width: 600px;
+    height: 800px;
     margin: 20px;
     text-align: center;
     padding: 0;
+
 }
 
 .image-container img {
+    max-width: 1450px;
+    max-height: 922px;
     width: 100%;
-    height: auto;
-    display: block;
+    object-fit: cover;
 }
 
 .content {
@@ -164,4 +167,12 @@
     border: 1px solid #adb5bd;
     display: inline-block;
     padding: 5px;
+}
+
+@media (max-width: 992px){
+    .case-study {
+        width: 85vw;
+        height: auto;
+        border:1px solid red;
+    }
 }
