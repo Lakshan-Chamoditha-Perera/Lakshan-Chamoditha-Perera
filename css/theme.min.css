@@ -606,6 +606,7 @@ button:not(:disabled) {
   }
 
   .col-md-2 {
+
     flex: 0 0 auto;
     width: 16.66667%;
   }
@@ -626,6 +627,7 @@ button:not(:disabled) {
   }
 
   .col-md-6 {
+    /*border:1px solid red;*/
     flex: 0 0 auto;
     width: 50%;
   }
