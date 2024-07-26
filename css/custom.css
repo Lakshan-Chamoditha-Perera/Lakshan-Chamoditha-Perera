@@ -244,7 +244,7 @@
     border-radius: 8px;
     padding: 8px 15px;
     margin: 10px;
-    font-size: medium;
+    font-size: small;
     display: flex;
     align-items: center;
     transition: transform 0.3s;
