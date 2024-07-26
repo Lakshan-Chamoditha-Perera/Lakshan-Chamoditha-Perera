@@ -108,7 +108,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 0 0 0 0;
     overflow: hidden;
-   width: 600px;
+    width: 600px;
     height: 800px;
     margin: 20px;
     text-align: center;
@@ -140,18 +140,18 @@
     text-align: left;
 }
 
-.tech-stack {
+.project-tech-stack {
     margin-top: 20px;
     text-align: left;
 }
 
-.tech-stack h2 {
+.project-tech-stack h2 {
     margin-bottom: 10px;
     font-size: 20px;
     color: #333;
 }
 
-.tech-stack ul {
+.project-tech-stack ul {
     list-style-type: disc;
     margin: 0;
     display: flex;
@@ -160,7 +160,7 @@
     gap: 5px;
 }
 
-.tech-stack li {
+.project-tech-stack li {
     margin-bottom: 5px;
     font-size: 16px;
     color: var(--bs-badge-color);
@@ -169,19 +169,21 @@
     padding: 5px;
 }
 
-@media (max-width: 992px){
+@media (max-width: 992px) {
     .case-study {
         width: 85vw;
         height: auto;
     }
 }
+
 /*-----------*/
 
-.about_description{
+.about_description {
     margin-top: 3rem;
     /*border: 1px solid red;*/
     font-size: 1.25rem
 }
+
 /*----------*/
 .preloader {
     position: fixed;
@@ -224,3 +226,38 @@
     bottom: 5rem;
 }
 
+
+/*-----------------*/
+.tech-stack {
+    width: 80%;
+    justify-self: center;
+}
+
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.icon {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 8px 15px;
+    margin: 10px;
+    font-size: medium;
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s;
+    text-decoration: none;
+    color: inherit;
+}
+
+.icon img {
+    height: 24px;
+    margin-right: 10px;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
