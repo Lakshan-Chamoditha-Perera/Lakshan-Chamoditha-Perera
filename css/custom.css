@@ -261,3 +261,46 @@
     transform: scale(1.1);
     cursor: pointer;
 }
+
+/*----------------*/
+.scrollable-cards-container {
+    display: flex;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.scrollable-cards-container .row {
+    flex-wrap: nowrap;
+}
+
+.scrollable-cards-container .col-12 {
+    flex: 0 0 auto;
+}
+
+#testimonials .row-cols-1 {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+#testimonials .row-cols-1::-webkit-scrollbar {
+    display: none;
+}
+
+#testimonials .card {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+@media (min-width: 768px) {
+    #testimonials .card {
+        flex: 0 0 48%;
+    }
+}
+
+@media (min-width: 1200px) {
+    #testimonials .card {
+        flex: 0 0 31%;
+    }
+}
